@@ -8,6 +8,12 @@ Here is the basic idea: import an *existing* diagram of some kind and use OCR+ma
 Then, whiteout existing text and replace it with braille.
 This is an arduous, annoying process, but it can be useful in rare cases.
 
+## Requirements
+
+* `python` (3.8+)
+	* `louis` (in `requirements.txt`)
+* `libouis` (from package manager)
+
 ## Usage
 
 Use `./easy.sh`.
