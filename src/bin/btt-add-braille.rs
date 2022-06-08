@@ -42,7 +42,7 @@ fn main() {
     // run OCR on each word bounding box
     for rect in &ocr_rects {
         let text = rect.hint.clone();
-        let brl_text = brl.translate_simple("en_US.tbl", &text, false, DOTS_UNICODE);
+        let brl_text = brl.translate_simple("en_CA.tbl", &text, false, DOTS_UNICODE);
         println!("[{}]: {}", rect.id, brl_text);
         draw_text_mut(&mut img, black, rect.x.try_into().unwrap(), rect.y.try_into().unwrap(), Scale::uniform(font_size), &font, &brl_text);
     }
