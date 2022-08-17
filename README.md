@@ -78,7 +78,7 @@ rem|6
 save
 # exit program
 ^C
-$ 
+$
 ```
 
 ### Whiteout Existing Text
@@ -96,6 +96,21 @@ This will rewrite `out.png` with an image that has all the boxes defined in `out
 ```
 
 This will rewrite `out.png` with braille text at the position of all the OCR objects in `out.json`.
+
+## `easier.sh`
+
+The `easier.sh` script builds onto the `easy.sh`, making more like a menu.
+Ensure the file you want to work with is called `diagram.png`, and that the extra dependencies are fulfilled, and run:
+
+```bash
+./easier.sh
+```
+
+### `easier.sh` dependencies
+
+* convert
+* nvim
+* sxiv
 
 ## Examples
 
