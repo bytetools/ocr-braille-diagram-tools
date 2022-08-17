@@ -99,7 +99,7 @@ This will rewrite `out.png` with braille text at the position of all the OCR obj
 
 ## `easier.sh`
 
-The `easier.sh` script builds onto the `easy.sh`, making more like a menu.
+The `easier.sh` script builds on top of the `easy.sh`, making it more like a menu.
 Ensure the file you want to work with is called `diagram.png`, and that the extra dependencies are fulfilled, and run:
 
 ```bash
